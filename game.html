@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Mata Formiga</title>
+    <link rel="icon" href="./img/Formiga.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./game.js" defer></script>
+</head>
+<body onresize="changeSize()">
+    <div class="menu">
+        <div class="chance">
+            <img src="./img/Cheio.png" alt="vidaCheia" id="c1" class="mt-4 mr-2 ml-4">
+            <img src="./img/Cheio.png" alt="vidaCheia" id="c2" class="mt-4 mr-2">
+            <img src="./img/Cheio.png" alt="vidaCheia" id="c3" class="mt-4 mr-2">
+        </div>
+    
+        <div class="time ml-4 mt-2">Você tem: <span id="time"></span></div>
+    </div>
+    
+    <script>
+        const create = setInterval(function() { 
+            changeSize()
+        }, 1300)
+    </script>
+</body>
+</html>
