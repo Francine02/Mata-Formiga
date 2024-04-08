@@ -43,7 +43,7 @@ function createAnt (height, width) {
 }
 
 function timeChance() {
-    let timeCont = 31; 
+    let timeCont = 16; 
 
     const time = setInterval(function() {
         timeCont -= 1;

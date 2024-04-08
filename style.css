@@ -63,8 +63,13 @@ button {
 
 @media (max-width: 575.98px) {
     .menu {
+        width: 13rem;
+        height: 7rem;
         & img {
-            width: 2rem;
+            width: 1.5rem;
+        }
+        & .time {
+            font-size: 1.2rem;
         }
     }
 
@@ -76,13 +81,21 @@ button {
     button {
         width: 8rem;
         height: 5rem;
+        & p {
+            font-size: 1rem;
+        }
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .menu {
+        width: 14rem;
+        height: 8rem;
         & img {
-            width: 3rem;
+            width: 2.5rem;
+        }
+        & .time {
+            font-size: 1.4rem;
         }
     }
 
@@ -99,8 +112,13 @@ button {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .menu {
+        width: 15rem;
+        height: 9rem;
         & img {
-            width: 3.6rem;
+            width: 2.8rem;
+        }
+        & .time {
+            font-size: 1.7rem;
         }
     }
 
