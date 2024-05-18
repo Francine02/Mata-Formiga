@@ -1,12 +1,15 @@
-<h3>Esse jogo foi desenvolvido para colocar em prática o projeto do curso da Udemy de desenvolvimento web.</h3>
+# Game mata formigas
+Esse jogo foi desenvolvido para colocar em prática o projeto do curso da Udemy de desenvolvimento web.
 
-<h1>Tecnologias utilizadas</h1>
+## :computer:Tecnologias utilizadas:
++ HTML e CSS
++ Bootstrap
++ JavaScript
 
-*HTML <br>
-*CSS <br>
-*Bootstrap <br>
-*JavaScript <br>
+## :pushpin:Referência:
+[Desenvolvimento Web - Udemy](https://www.udemy.com/course/web-completo/?couponCode=LEADERSALE24A)
 
-Link: https://francine02.github.io/Mata-Formiga/
+## :diamonds:Link:
+[Game mata formiga](https://francine02.github.io/Mata-Formiga/)
 
 <img src= "./img/print.png">
